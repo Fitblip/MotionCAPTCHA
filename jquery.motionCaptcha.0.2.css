@@ -9,29 +9,30 @@
 
 /* The canvas: */
 #mc-canvas {
-	width:220px;  /* For best results, set width to between 210px and 240px */
-	height:154px; /* For best results, set height to between 140px and 170px */
+	width:300px;  /* For best results, set width to between 210px and 240px */
+	height:200px; /* For best results, set height to between 140px and 170px */
 	background:#fff -9999px -9999px no-repeat;
-	background-image: url('motionCaptcha-shapes.jpg') !important;
+	background-image: url('/static/img/motionCaptcha-shapes.jpg') !important;
 }
 
+
 /* The shapes: */
-#mc-canvas.triangle     { background-position:  10px   10px }
-#mc-canvas.x            { background-position:-200px   10px }
-#mc-canvas.rectangle    { background-position:-400px   10px }
-#mc-canvas.circle       { background-position:-600px   10px }
-#mc-canvas.check        { background-position:  10px -150px }
-#mc-canvas.caret        { background-position:-200px -150px }
-#mc-canvas.zigzag       { background-position:-400px -150px }
-#mc-canvas.arrow        { background-position:-600px -150px }
-#mc-canvas.leftbracket  { background-position:  10px -300px }
-#mc-canvas.rightbracket { background-position:-200px -300px }
-#mc-canvas.v            { background-position:-400px -300px }
-#mc-canvas.delete       { background-position:-600px -300px }
-#mc-canvas.leftbrace    { background-position:  10px -450px }
-#mc-canvas.rightbrace   { background-position:-200px -450px }
-#mc-canvas.star         { background-position:-400px -450px }
-#mc-canvas.pigtail      { background-position:-600px -450px }
+#mc-canvas.triangle     { background-position:  30px   20px }
+#mc-canvas.x            { background-position:-225px   20px }
+#mc-canvas.rectangle    { background-position:-480px   20px }
+#mc-canvas.circle       { background-position:-730px   20px }
+#mc-canvas.check        { background-position:  25px -180px }
+#mc-canvas.caret        { background-position:-235px -180px }
+#mc-canvas.zigzag       { background-position:-485px -180px }
+#mc-canvas.arrow        { background-position:-735px -180px }
+#mc-canvas.leftbracket  { background-position:  50px -365px }
+#mc-canvas.rightbracket { background-position:-240px -365px }
+#mc-canvas.v            { background-position:-480px -365px }
+#mc-canvas.delete       { background-position:-730px -365px }
+#mc-canvas.leftbrace    { background-position:  35px -560px }
+#mc-canvas.rightbrace   { background-position:-235px -560px }
+#mc-canvas.star         { background-position:-490px -560px }
+#mc-canvas.pigtail      { background-position:-735px -560px }
 
 /* Disable mouse-selection on the page (only while user is actively drawing on the canvas): */
 .mc-noselect {
